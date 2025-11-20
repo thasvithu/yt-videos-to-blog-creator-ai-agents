@@ -1,0 +1,37 @@
+[project]
+name = "yt-videos-to-blog-creator-ai-agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "alembic==1.13.1",
+    "asyncpg==0.29.0",
+    "black==24.1.1",
+    "celery==5.3.6",
+    "email-validator==2.1.0",
+    "fastapi==0.109.0",
+    "google-api-python-client==2.115.0",
+    "httpx==0.26.0",
+    "langchain==0.3.7",
+    "langchain-community==0.3.7",
+    "langchain-openai==0.2.8",
+    "langgraph==0.2.45",
+    "openai==1.54.0",
+    "pgvector==0.2.4",
+    "psycopg2-binary==2.9.9",
+    "pydantic==2.7.4",
+    "pydantic-settings==2.4.0",
+    "pytest==7.4.4",
+    "pytest-asyncio==0.23.3",
+    "pytest-cov==4.1.0",
+    "python-dotenv==1.0.0",
+    "python-multipart==0.0.6",
+    "redis==5.0.1",
+    "ruff==0.1.14",
+    "sendgrid==6.11.0",
+    "sqlalchemy==2.0.25",
+    "tenacity==8.2.3",
+    "uvicorn[standard]==0.27.0",
+    "youtube-transcript-api==0.6.2",
+]

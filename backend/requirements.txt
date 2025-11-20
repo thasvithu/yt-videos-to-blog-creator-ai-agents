@@ -1,0 +1,49 @@
+# Backend Dependencies
+
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.7.4
+pydantic-settings==2.4.0
+email-validator==2.1.0
+
+# Database
+sqlalchemy==2.0.25
+alembic==1.13.1
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+pgvector==0.2.4
+
+# LangChain & LLM
+langchain==0.3.7
+langchain-openai==0.2.8
+langchain-community==0.3.7
+langgraph==0.2.45
+openai==1.54.0
+
+# YouTube
+youtube-transcript-api==0.6.2
+google-api-python-client==2.115.0
+
+# Task Queue
+celery==5.3.6
+redis==5.0.1
+
+# Email
+sendgrid==6.11.0
+
+# Utilities
+python-dotenv==1.0.0
+httpx==0.26.0
+tenacity==8.2.3
+python-multipart==0.0.6
+
+# Development
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+ruff==0.1.14
+black==24.1.1
+
+
+email-validator
